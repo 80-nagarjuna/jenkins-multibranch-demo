@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenkins CI/CD Demo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .container {
+            background: white;
+            width: 500px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #0073e6;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Jenkins Pipeline Demo</h1>
+
+    <p>This page was built using a Jenkins Pipeline.</p>
+
+    <p>CI/CD is working successfully!</p>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <footer>
+        <p>Build Automation | Jenkins | DevOps</p>
+    </footer>
+</div>
+
+<script>
+function showMessage() {
+    alert("Hello from Jenkins CI/CD Pipeline!");
+}
+</script>
+
+</body>
+</html>
